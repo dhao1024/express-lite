@@ -1,0 +1,39 @@
+{
+  "name": "express-lite",
+  "version": "1.0.0",
+  "description": "no description",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Dean",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^9.0.1",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express-lite": "file:",
+    "finalhandler": "^1.1.2",
+    "merge-descriptors": "^1.0.1",
+    "path-to-regexp": "^6.2.0",
+    "serve-static": "^1.14.1"
+  },
+  "optionalDependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "serve-index": "^1.9.1"
+  }
+}
